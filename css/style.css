@@ -78,6 +78,10 @@ button:focus {
   padding-left: 0px;
   padding-right: 0px; }
 
+.p_50 {
+  padding: 50px;
+}
+
 .p_120 {
   padding-top: 120px;
   padding-bottom: 120px; }
@@ -90,7 +94,9 @@ button:focus {
   padding-top: 120px; }
 
 .pad_bt {
-  padding-bottom: 120px; }
+  padding-bottom: 120px;
+  background: red;
+ }
 
 .mt-25 {
   margin-top: 25px; }
@@ -2801,10 +2807,6 @@ h6 {
         text-transform: uppercase; }
       .isotope_fillter .gallery_filter li:hover a, .isotope_fillter .gallery_filter li.active a {
         color: #766dff; }
-
-.gallery_f_inner {
-  margin-bottom: -45px; }
-
 .h_gallery_item {
   display: inline-block;
   margin-bottom: 45px; }
